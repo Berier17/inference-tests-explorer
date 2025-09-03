@@ -20,8 +20,8 @@ inference-visualizer/
 │   └── Nonparametrics.py
 │
 ├── animations/          # Manim scripts
-│   ├── Sampling_distribution
-│   ├── Regression_3D
+│   ├── SamplingDistribution.mp4
+│   ├── Regression3D.mp4
 │
 │
 ├── requirements.txt
