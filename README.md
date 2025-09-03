@@ -10,7 +10,6 @@ inference-visualizer/
 📂 Folder Structure
 │
 ├── app/                 # Streamlit pages (UI for tests, explanations)
-│   ├── __init__.py
 │   ├── Home.py
 │   ├── Distributions.py
 │   ├── Estimation.py
@@ -22,7 +21,9 @@ inference-visualizer/
 ├── animations/          # Manim scripts
 │   ├── SamplingDistribution.mp4
 │   ├── Regression3D.mp4
-│
+|
+├── manim_scripts/           # All your manim source code
+│   ├── smanim.py│
 │
 ├── requirements.txt
 └──  README.md
