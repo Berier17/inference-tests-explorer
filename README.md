@@ -1,2 +1,28 @@
-# inference-tests-explorer
-An interactive Streamlit app for statistical inference. Explore hypothesis tests, confidence intervals, their formulas, and real-world use cases across industries. Includes global search across all tests.
+# Inference Tests Explorer
+
+### Short Intro
+
+An interactive Streamlit app to learn and explore **statistical inference tests**.  
+Includes parametric and nonparametric hypothesis tests, ANOVA, chi-square, and regression inference.  
+Features **Manim-powered animations** to visually explain core statistical ideas alongside formulas and real-world use cases.
+inference-visualizer/
+
+📂 Folder Structure
+│
+├── app/                 # Streamlit pages (UI for tests, explanations)
+│   ├── __init__.py
+│   ├── Home.py
+│   ├── Distributions.py
+│   ├── Estimation.py
+│   ├── Hypothesis Tests.py
+│   ├── ANOVA & Chi-square.py
+│   ├── Regression.py    
+│   └── Nonparametrics.py
+│
+├── animations/          # Manim scripts
+│   ├── Sampling_distribution
+│   ├── Regression_3D
+│
+│
+├── requirements.txt
+└──  README.md
